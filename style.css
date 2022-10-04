@@ -1,0 +1,43 @@
+/* #791418
+#af6b84
+#630e2b
+#dde6f5
+#120b58 */
+
+body {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.card {
+	text-align: center;
+}
+
+.title,
+p {
+	color: #120b58;
+}
+
+.image__main {
+	height: 70vh;
+	width: 100vw;
+	background-image: url("./ironman.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.footer .button {
+	text-decoration: none;
+	font-size: 24px;
+	padding: 10px 20px;
+	margin: 10px;
+	border-radius: 5px;
+	background-color: #630e2b;
+	color: #dde6f5;
+}
+.footer .button:hover {
+	background-color: #791418;
+	border: #dde6f5 3px solid;
+	border-radius: 8px;
+}
